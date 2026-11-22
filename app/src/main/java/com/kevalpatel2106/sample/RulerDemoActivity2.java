@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright 2018 Keval Patel
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance wit
@@ -14,9 +14,9 @@
 package com.kevalpatel2106.sample;
 
 import android.os.Bundle;
-import android.support.design.widget.TextInputEditText;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.textfield.TextInputEditText;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.widget.TextView;
 
 import com.kevalpatel2106.rulerpicker.RulerValuePicker;
@@ -73,3 +73,4 @@ public class RulerDemoActivity2 extends AppCompatActivity {
         });
     }
 }
+
